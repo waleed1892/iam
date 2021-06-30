@@ -1,0 +1,44 @@
+#header {
+  background: white;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
+
+#navbar {
+  background: rgba(194, 201, 209, 0.17);
+  border-radius: 5px;
+
+  .nav-item {
+    .nav-link {
+      color: rgba(79, 79, 79, 0.72);
+
+      &.router-link-active {
+        background: rgba(40, 165, 142, 0.78);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        color: white;
+      }
+
+      &.router-link-exact-active {
+        background: rgba(40, 165, 142, 0.78);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        color: white;
+      }
+    }
+  }
+
+  .dropdown-menu {
+    margin-top: 28px;
+  }
+}
+
+#appsLink {
+  border: 1px solid rgba(194, 207, 224, 0.78);
+  border-radius: 10px;
+  padding: 0px 5px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
